@@ -1,0 +1,28 @@
+{
+  "name": "@seismiccore/redis-sharder",
+  "version": "1.0.15",
+  "main": "dist/RedisSharder.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seismiccore/redis-sharder.git"
+  },
+  "author": "SeismicCore",
+  "license": "MIT",
+  "devDependencies": {
+    "eris": "^0.11.2"
+  },
+  "peerDependencies": {
+    "eris": "^0.11.2"
+  },
+  "dependencies": {
+    "ioredis": "^4.16.0",
+    "ioredis-lock": "^4.0.0",
+    "typescript": "^3.8.3",
+    "@types/ioredis": "^4.14.8",
+    "@types/node": "^13.9.0"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "@seismiccore/redis-sharder",
-  "version": "1.0.15-1",
+  "version": "1.0.15",
   "main": "dist/RedisSharder.js",
   "scripts": {
     "build": "tsc",
